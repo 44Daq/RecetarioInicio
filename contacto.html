@@ -18,13 +18,54 @@
        <h1 style="text-align: center;">Contáctanos</h1>
 
     </header>
-</header>
+<hr>
 <!--menu principal-->
-<nav>
-    <form>
+<main>
+    <section>
+        <form action="mostar_datos.html">
+            <h3>Completá tus datos</h3>
+            <label for="Nombre">Nombre</label>
+            <input type="text" name="nombre" id="nom" requiered>
+            <br><br>
+            <label for="ape">Apellido</label> 
+            <input type="text" name="apellido" id="ape" required>
+            <br> <br>
+            <label for="dni">A</label>
+            <input type="radio" name="leng" id="a" value="A">
+       
+            <label for="dni">B</label>
+            <input type="radio" name="leng" id="b" value="B">
+          
+            <label for="dni">C</label>
+            <input type="radio" name="leng" id="b" value="C">
+            <br><br>
+            <label for="dni">DNI</label>
+            <input type="number" name="dni" id="dni" min="1000000" max="99999999">
+            <br><br>
+            <label for="pass">Password</label>
+            <input type="password" name="pass" id="pass">
+            <br><br>
+            <label for="cump">Fecha de Nac</label>
+            <input type="date" name="cump" id="cump">
+            <br><br>
+            <label for="tel">Telefono</label>
+            <input type="number" name="tel" id="tel">
+            <br><br>
+            <label for="correo">Correo</label>
+            <input type="email" name="correo" id="correo">
+            <br><br>
+            <label for="coment">Dejanos tu comentario</label>
+            <br>
+            <textarea name="" id="" cols="50"rows="10" placeholder="Escribí aquí"></textarea>
+            <br><br>
+            <input type="submit" value="Enviar formulario">
+            <input type="reset" value="Reiniciar">
+            <br>
+            
 
-    </form>
-
+        </form>
+    </section>    
+</main>
 <hr>
 <footer style="background-color: rgb(131, 188, 248);">
     <hr>
