@@ -24,40 +24,44 @@
     <section>
         <form action="mostar_datos.html">
             <h3 style="text-align: center;">Completá tus datos</h3 >
-        <table>
-            
-            <tr>
-                <td>
-                    <label for="Nombre">Nombre</label>
-                    <input type="text" name="nombre" id="nom" requiered>
-                    <br><br>
-                    <label for="dni">DNI</label>
-                    <input type="number" name="dni" id="dni" min="1000000" max="99999999">
-                    <br><br>
-                    <label for="tel">Telefono</label>
-                    <input type="number" name="tel" id="tel">
-                </td>
-                <td>
-                    <br>
-                    <label for="ape">Apellido</label> 
-                    <input type="text" name="apellido" id="ape" required>
-                    <br> <br>
-                    <!-- <label for="dni">DNI</label>
-                    <input type="number" name="dni" id="dni" min="1000000" max="99999999">
-                    <br><br> -->
-                    <!-- <label for="pass">Password</label> -->
-                    <!-- <input type="password" name="pass" id="pass">
-                    <br><br> -->
-                    <label for="cump">Fecha de Nac</label>
-                    <input type="date" name="cump" id="cump">
-                    <br><br>
-                    <label for="correo">Correo</label>
-                    <input type="email" name="correo" id="correo">
-                    <br><br>
-                </td>
+                
+        <fieldset >    
+            <table>
+                <tr>
+                    <td>
+                        <label for="Nombre">Nombre</label>
+                        <input type="text" name="nombre" id="nom" requiered>
+                        <br><br>
+                        <label for="dni">DNI</label>
+                        <input type="number" name="dni" id="dni" min="1000000" max="99999999">
+                        <br><br>
+                        <label for="tel">Telefono</label>
+                        <input type="number" name="tel" id="tel">
+                    </td>
+                    <td>
+                        <br>
+                        <label for="ape">Apellido</label> 
+                        <input type="text" name="apellido" id="ape" required>
+                        <br> <br>
+                        <!-- <label for="dni">DNI</label>
+                        <input type="number" name="dni" id="dni" min="1000000" max="99999999">
+                        <br><br> -->
+                        <!-- <label for="pass">Password</label> -->
+                        <!-- <input type="password" name="pass" id="pass">
+                        <br><br> -->
+                        <label for="cump">Fecha de Nac</label>
+                        <input type="date" name="cump" id="cump">
+                        <br><br>
+                        <label for="correo">Correo</label>
+                        <input type="email" name="correo" id="correo">
+                        <br><br>
+                    </td>
+           
              
-            </table>    
-
+            </table> 
+        </fieldset>       
+        </form> 
+    </section>      
             <!-- <label for="dni">A</label>
             <input type="radio" name="leng" id="a" value="A">
        
@@ -67,24 +71,20 @@
             <label for="dni">C</label>
             <input type="radio" name="leng" id="b" value="C">-->
             <br><br> 
-            <label for="coment">Dejanos tu comentario</label>
+</main>   
+           
+    <section style="text-align: center;" >
+
+                
+        <label for="coment" >Dejanos tu comentario</label>
             <br>
-            <textarea name="" id="" cols="50"rows="10" placeholder="Escribí aquí"></textarea>
+        <textarea name="" id="" cols="60"rows="8" placeholder="Escribí aquí" style="align-items: center;"></textarea>
             <br><br>
             <input type="submit" value="Enviar formulario">
             <input type="reset" value="Reiniciar">
             <br> 
+    </section>          
             
-           
-            
-        </form> 
-       
-        <br><br>
-       
-       
-    </section>    
-</main>
-<hr>
 <footer style="background-color: rgb(131, 188, 248);">
     <hr>
     <p style="text-align: center;"><strong>Derechos Reservados</strong></p>
