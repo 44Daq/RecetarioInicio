@@ -1,2 +1,0 @@
-# RecetarioInicio
-Recetario
